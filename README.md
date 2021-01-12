@@ -47,8 +47,19 @@ Scalable Gradients for Stochastic Differential Equations: [AISTATS20](https://ar
 
 > We present a new approach to modeling sequential data: the deep equilibrium model (DEQ). Motivated by an observation that the hidden layers of many existing deep sequence models converge towards some fixed point, we propose the DEQ approach that directly finds these equilibrium points via root-finding.
 
+* Multiscale Deep Equilibrium Models: [NeurIPS20](https://arxiv.org/abs/2006.08656)
+
+> We propose a new class of implicit networks, the multiscale deep equilibrium model (MDEQ), suited to large-scale and highly hierarchical pattern recognition domains. An MDEQ directly solves for and backpropagates through the equilibrium points of multiple feature resolutions simultaneously, using implicit differentiation to avoid storing intermediate states (and thus requiring only O(1) memory consumption). These simultaneously-learned multi-resolution features allow us to train a single model on a diverse set of tasks and loss functions, such as using a single MDEQ to perform both image classification and semantic segmentation...
+
+* Monotone Operator Equilibrium Networks [NeurIPS20](https://arxiv.org/abs/2006.08591)
+
+* Lipschitz Bounded Equilibrium Networks: [Arxiv](https://arxiv.org/abs/2010.01732)
+
 ### Optimization Layers
 
+* Differentiable Implicit Layers: [NeurIPS20](https://arxiv.org/pdf/2010.07078.pdf)
+
+> In  this  paper,   we  introduce  an  efficient  backpropagation  scheme  for  non-constrained implicit functions. These functions are parametrized by a set of learn-able weights and may optionally depend on some input; making them perfectlysuitable as a learnable layer in a neural network.  We demonstrate our scheme ondifferent applications:  (i) neural ODEs with the implicit Euler method, and (ii) system identification in model predictive control.
 
 
 ## Additional Material
