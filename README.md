@@ -92,4 +92,4 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 
 ## Tutorials and Talks
 
-* **NeurIPS20 Tutorial** Deep Implicit Layers - Neural ODEs, Deep Equilibirum Models, and Beyond [website](http://implicit-layers-tutorial.org/)
+* **NeurIPS20 Tutorial** *Deep Implicit Layers - Neural ODEs, Deep Equilibirum Models, and Beyond* [website](http://implicit-layers-tutorial.org/)
