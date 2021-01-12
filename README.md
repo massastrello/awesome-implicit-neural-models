@@ -1,7 +1,7 @@
 # awesome-implicit-neural-models
 A collection of resources on *Implicit* learning model, ranging from Neural ODEs to Equilibrium Networks, Differentiable Optimization Layers and more.
 
-*"The crux of an **implicit layer**, is that instead of specifying how to compute the layer’s output from the input, we specify the conditions that we want the layer’s output to satisfy."* (http://implicit-layers-tutorial.org/)
+*"The crux of an **implicit layer**, is that instead of specifying how to compute the layer’s output from the input, we specify the conditions that we want the layer’s output to satisfy."* [cit.](http://implicit-layers-tutorial.org/)
 
 **NOTE:** Feel free to suggest additions via `Issues` or `Pull Requests`.
 
