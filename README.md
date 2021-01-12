@@ -18,6 +18,7 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 	
 * **Additional Material**
   * [Software and Libraries](#software-and-libraries)
+  * [Tutorials and Talks](#tutorials-and-talks)
 
 ## Implicit Deep Learning
 
@@ -86,3 +87,7 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 #### Optimization
 
 * `mpc.pytorch` A fast and differentiable model predictive control solver for PyTorch. [repo](https://github.com/locuslab/mpc.pytorch), [docs](https://locuslab.github.io/mpc.pytorch/)
+
+## Tutorials and Talks
+
+* 
