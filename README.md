@@ -69,5 +69,12 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 ## Additional Material
 
 ### Software and Libraries
+#### Neural ODEs
+* `torchdiffeq` 
+* `torchdyn`
+* `torchsde`
+* `torchcde`
 
-### Websites and Blogs
+#### Deep Equilibrium Models
+
+#### Optimization
