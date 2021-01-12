@@ -25,7 +25,7 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 ## Implicit Deep Learning
 
 ### Neural Differential Equations
-`In *Neural Differential Equations*, the input-output mapping is realized by solving a boundary value problem. The learnable component is the *vector field* of the differential equation.`
+**In *Neural Differential Equations*, the input-output mapping is realized by solving a boundary value problem. The learnable component is the *vector field* of the differential equation.**
 
 * Neural Ordinary Differential Equations (best paper award): [NeurIPS18](https://arxiv.org/pdf/1806.07366.pdf)
 
