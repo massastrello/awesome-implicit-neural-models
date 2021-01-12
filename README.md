@@ -29,8 +29,6 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 
 * Dissecting Neural ODEs (oral): [NeurIPS20](https://arxiv.org/abs/2002.08071)
 
-> In this work, we “open the box” and offer a system–theoretic perspective with the aim of clarifying the influence of several design choices on the underlying dynamics. We formulate and solve the infinite–dimensional problem linked to the true deep limit formulation of Neural ODE. We provide numerical approximations to the infinite–dimensional problem, leading to novel model variants, such as Galerkin and piecewise–constant Neural ODEs. Augmentation is developed beyond existing approaches to include input–layer and higher–order augmentation strategies. Finally, the novel paradigms of data–control (vector field conditioning) and depth–adaptation are introduced.
-
 * Neural Controlled Differential Equations for Irregular Time Series (spotlight): [NeurIPS20](https://arxiv.org/abs/2005.08926)
 
 > Neural ordinary differential equations are an attractive option for modelling temporal dynamics. However, a fundamental issue is that the solution to an ordinary differential equation is determined by its initial condition, and there is no mechanism for adjusting the trajectory based on subsequent observations. Here, we demonstrate how this may be resolved through the well-understood mathematics of *controlled differential equations*. The resulting *neural controlled differential equation* model is directly applicable to the general setting of partially-observed irregularly-sampled multivariate time series, and (unlike previous work on this problem) it may utilise memory-efficient adjoint-based backpropagation even across observations. We demonstrate that our model achieves state-of-the-art performance against similar (ODE or RNN based) models in empirical studies on a range of datasets. Finally we provide theoretical results demonstrating universal approximation, and that our model subsumes alternative ODE models. 
@@ -49,13 +47,15 @@ Scalable Gradients for Stochastic Differential Equations: [AISTATS20](https://ar
 
 * Multiscale Deep Equilibrium Models: [NeurIPS20](https://arxiv.org/abs/2006.08656)
 
-> We propose a new class of implicit networks, the multiscale deep equilibrium model (MDEQ), suited to large-scale and highly hierarchical pattern recognition domains. An MDEQ directly solves for and backpropagates through the equilibrium points of multiple feature resolutions simultaneously, using implicit differentiation to avoid storing intermediate states (and thus requiring only O(1) memory consumption). These simultaneously-learned multi-resolution features allow us to train a single model on a diverse set of tasks and loss functions, such as using a single MDEQ to perform both image classification and semantic segmentation...
-
-* Monotone Operator Equilibrium Networks [NeurIPS20](https://arxiv.org/abs/2006.08591)
+* Monotone Operator Equilibrium Networks: [NeurIPS20](https://arxiv.org/abs/2006.08591)
 
 * Lipschitz Bounded Equilibrium Networks: [Arxiv](https://arxiv.org/abs/2010.01732)
 
 ### Optimization Layers
+
+* OptNet: Differentiable Optimization as a Layer in Neural Networks: [ICML17](https://arxiv.org/abs/1703.00443)
+
+* Differentiable Convex Optimization Layers: [NeurIPS18](https://papers.nips.cc/paper/2019/hash/9ce3c52fc54362e22053399d3181c638-Abstract.html)
 
 * Differentiable Implicit Layers: [NeurIPS20](https://arxiv.org/pdf/2010.07078.pdf)
 
