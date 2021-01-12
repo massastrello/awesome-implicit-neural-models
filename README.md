@@ -77,5 +77,10 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 
 
 #### Deep Equilibrium Models
+* `deq` This repository contains the code for the deep equilibrium (DEQ) model, an implicit-depth architecture [repo](https://github.com/locuslab/deq)
+
+* `deq-jax` Jax Implementation for the deep equilibrium (DEQ) model [repo](https://github.com/akbir/deq-jax)
 
 #### Optimization
+
+* `mpc.pytorch` A fast and differentiable model predictive control solver for PyTorch. [repo](https://github.com/locuslab/mpc.pytorch), [docs](https://locuslab.github.io/mpc.pytorch/)
