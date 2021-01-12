@@ -51,6 +51,8 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 
 * Lipschitz Bounded Equilibrium Networks: [Arxiv](https://arxiv.org/abs/2010.01732)
 
+* Implicit Deep Learning: [Arxiv](https://arxiv.org/abs/1908.06315)
+
 ### Optimization Layers
 
 * OptNet: Differentiable Optimization as a Layer in Neural Networks: [ICML17](https://arxiv.org/abs/1703.00443)
