@@ -59,7 +59,7 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 * Implicit Deep Learning: [Arxiv](https://arxiv.org/abs/1908.06315)
 
 ### Optimization Layers
-**To infer any *differentiable optimization layer*, some cost function has to be minimized (maximized) **
+**To infer any *differentiable optimization layer*, some cost function has to be minimized (maximized)**
 
 * OptNet: Differentiable Optimization as a Layer in Neural Networks: [ICML17](https://arxiv.org/abs/1703.00443)
 
