@@ -43,6 +43,14 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 
 > The adjoint sensitivity method scalably computes gradients of solutions to ordinary differential equations. We generalize this method to stochastic differential equations, allowing time-efficient and constant-memory computation of gradients with high-order adaptive solvers. Specifically, we derive a stochastic differential equation whose solution is the gradient, a memory-efficient algorithm for caching noise, and conditions under which numerical solutions converge. In addition, we combine our method with gradient-based stochastic variational inference for latent stochastic differential equations. We use our method to fit stochastic dynamics defined by neural networks, achieving competitive performance on a 50-dimensional motion capture dataset. 
 
+* Discretize-Optimize vs. Optimize-Discretize for Time-Series Regression and Continuous Normalizing Flows: [arxiv](https://arxiv.org/abs/2005.13420)
+
+> We compare the discretize-optimize (Disc-Opt) and optimize-discretize (Opt-Disc) approaches for time-series regression and continuous normalizing flows (CNFs) using neural ODEs. Neural ODEs are ordinary differential equations (ODEs) with neural network components. Training a neural ODE is an optimal control problem where the weights are the controls and the hidden features are the states. Every training iteration involves solving an ODE forward and another backward in time, which can require large amounts of computation, time, and memory. Comparing the Opt-Disc and Disc-Opt approaches in image classification tasks, Gholami et al. (2019) suggest that Disc-Opt is preferable due to the guaranteed accuracy of gradients. In this paper, we extend the comparison to neural ODEs for time-series regression and CNFs. Unlike in classification, meaningful models in these tasks must also satisfy additional requirements beyond accurate final-time output, e.g., the invertibility of the CNF. Through our numerical experiments, we demonstrate that with careful numerical treatment, Disc-Opt methods can achieve similar performance as Opt-Disc at inference with drastically reduced training costs. Disc-Opt reduced costs in six out of seven separate problems with training time reduction ranging from 39% to 97%, and in one case, Disc-Opt reduced training from nine days to less than one day.
+
+* Bayesian Neural ODEs: [POPL2021-LAFI](https://arxiv.org/pdf/2012.07244.pdf)
+
+> Recently, Neural Ordinary Differential Equations has emerged as a powerful framework for modeling physical simulations without explicitly defining the ODEs governing the system, but learning them via machine learning. However, the question: “Can Bayesian learning frameworks be integrated with Neural ODE’s to robustly quantify the uncertainty in the weights of a Neural ODE?” remains unanswered. In an effort to address this question, we demonstrate the successful integration of Neural ODEs with two methods of Bayesian Inference: (a) The No-U-Turn MCMC sampler (NUTS) and (b) Stochastic Langevin Gradient Descent (SGLD). We test the performance of our Bayesian Neural ODE approach on classical physical systems, as well as on standard machine learning datasets like MNIST, using GPU acceleration. Finally, considering a simple example, we demonstrate the probabilistic identification of model specification in partially-described dynamical systems using universal ordinary differential equations. Together, this gives a scientific machine learning tool for probabilistic estimation of epistemic uncertainties.
+
 ### Deep Equilibrium Networks
 **In *Equilibrium Models*, the output of the model must be a fixed point of some learnable transaformation (e.g. a discrete time map), often explicitly dependent on the input.**
 
@@ -57,6 +65,8 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 * Lipschitz Bounded Equilibrium Networks: [Arxiv](https://arxiv.org/abs/2010.01732)
 
 * Implicit Deep Learning: [Arxiv](https://arxiv.org/abs/1908.06315)
+
+* Algorithmic Differentiation of a Complex C++ Code with Underlying Libraries (An AD system for C++ with DEQ-like adjoints by default on PETSc) [Paper](https://www.sciencedirect.com/science/article/pii/S187705091300327X)
 
 ### Optimization Layers
 **To infer any *differentiable optimization layer*, some cost function has to be minimized (maximized)**
@@ -82,12 +92,13 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 * `torchdyn` PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
 * `torchsde` Stochastic differential equation (SDE) solvers with GPU support and efficient sensitivity analysis: [repo](https://github.com/google-research/torchsde)
 * `torchcde` GPU-capable solvers for controlled differential equations (CDEs): [repo](https://github.com/patrick-kidger/torchcde)
-
+* `DifferentialEquations.jl` is a set of ODE/SDE/DAE/DDE/jump/etc. solvers with GPU and distributed computing support, event handling, along with O(1) memory adjoints and stabilized versions for stiff and partial differential equations [repo](https://github.com/SciML/DifferentialEquations.jl) [docs](https://diffeq.sciml.ai/stable/)
+* `DiffEqFlux.jl` is a companion library to `DifferentialEquations.jl` which includes common implicit layer models and tooling such as collocation schemes for building complex loss functions [repo](https://github.com/SciML/DiffEqFlux.jl) [docs](https://diffeqflux.sciml.ai/dev/)
 
 #### Deep Equilibrium Models
 * `deq` This repository contains the code for the deep equilibrium (DEQ) model, an implicit-depth architecture [repo](https://github.com/locuslab/deq)
-
 * `deq-jax` Jax Implementation for the deep equilibrium (DEQ) model [repo](https://github.com/akbir/deq-jax)
+* `DifferentialEquations.jl` `SteadyStateProblem` is a differentiable solver for steady-states of differential equations [repo](https://github.com/SciML/DifferentialEquations.jl)
 
 #### Optimization
 
@@ -96,3 +107,4 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 ## Tutorials and Talks
 
 * **NeurIPS20 Tutorial** *Deep Implicit Layers - Neural ODEs, Deep Equilibirum Models, and Beyond* [website](http://implicit-layers-tutorial.org/)
+* **JuliaCon 2019** *Neural Ordinary Differential Equations with DiffEqFlux | Jesse Bettencourt* [youtube](https://youtu.be/5ZgEp36E71Y)
