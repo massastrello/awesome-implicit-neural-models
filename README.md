@@ -70,10 +70,11 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 
 ### Software and Libraries
 #### Neural ODEs
-* `torchdiffeq` 
-* `torchdyn`
-* `torchsde`
-* `torchcde`
+* `torchdiffeq` Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation: [repo](https://github.com/rtqichen/torchdiffeq)
+* `torchdyn` PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
+* `torchsde` Stochastic differential equation (SDE) solvers with GPU support and efficient sensitivity analysis: [repo](https://github.com/google-research/torchsde)
+* `torchcde` GPU-capable solvers for controlled differential equations (CDEs): [repo](https://github.com/patrick-kidger/torchcde)
+
 
 #### Deep Equilibrium Models
 
