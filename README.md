@@ -19,8 +19,6 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 * **Additional Material**
   * [Software and Libraries](#software-and-libraries)
 
-  * [Websites and Blogs](#websites-and-blogs)
-
 ## Implicit Deep Learning
 
 ### Neural Differential Equations
