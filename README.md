@@ -55,6 +55,10 @@ Scalable Gradients for Stochastic Differential Equations: [AISTATS20](https://ar
 
 * OptNet: Differentiable Optimization as a Layer in Neural Networks: [ICML17](https://arxiv.org/abs/1703.00443)
 
+* Input Covex Neural Networks [ICML17](http://proceedings.mlr.press/v70/amos17b/amos17b.pdf) 
+
+* Differentiable MPC for End-to-end Planning and Control: [NeurIPS18](https://papers.nips.cc/paper/2018/file/ba6d843eb4251a4526ce65d1807a9309-Paper.pdf)
+
 * Differentiable Convex Optimization Layers: [NeurIPS18](https://papers.nips.cc/paper/2019/hash/9ce3c52fc54362e22053399d3181c638-Abstract.html)
 
 * Differentiable Implicit Layers: [NeurIPS20](https://arxiv.org/pdf/2010.07078.pdf)
