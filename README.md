@@ -92,8 +92,8 @@ A collection of resources on *Implicit* learning model, ranging from Neural ODEs
 * `torchdyn` PyTorch library for all things neural differential equations. [repo](https://github.com/diffeqml/torchdyn), [docs](https://torchdyn.readthedocs.io/)
 * `torchsde` Stochastic differential equation (SDE) solvers with GPU support and efficient sensitivity analysis: [repo](https://github.com/google-research/torchsde)
 * `torchcde` GPU-capable solvers for controlled differential equations (CDEs): [repo](https://github.com/patrick-kidger/torchcde)
-* `DifferentialEquations.jl` is a set of ODE/SDE/DAE/DDE/jump/etc. solvers with GPU and distributed computing support, event handling, along with O(1) memory adjoints and stabilized versions for stiff and partial differential equations [repo](https://github.com/SciML/DifferentialEquations.jl) [docs](https://diffeq.sciml.ai/stable/)
-* `DiffEqFlux.jl` is a companion library to `DifferentialEquations.jl` which includes common implicit layer models and tooling such as collocation schemes for building complex loss functions [repo](https://github.com/SciML/DiffEqFlux.jl) [docs](https://diffeqflux.sciml.ai/dev/)
+* `DifferentialEquations.jl` is a set of ODE/SDE/DAE/DDE/jump/etc. solvers with GPU and distributed computing support, event handling, along with O(1) memory adjoints and stabilized versions for stiff and partial differential equations [repo](https://github.com/SciML/DifferentialEquations.jl), [docs](https://diffeq.sciml.ai/stable/)
+* `DiffEqFlux.jl` is a companion library to `DifferentialEquations.jl` which includes common implicit layer models and tooling such as collocation schemes for building complex loss functions [repo](https://github.com/SciML/DiffEqFlux.jl), [docs](https://diffeqflux.sciml.ai/dev/)
 
 #### Deep Equilibrium Models
 * `deq` This repository contains the code for the deep equilibrium (DEQ) model, an implicit-depth architecture [repo](https://github.com/locuslab/deq)
